@@ -1,7 +1,8 @@
 ## Interface: 120007
 ## Title: Auto Vendor Housing Items
 ## Notes: Automatically sells all housing/decor items when you talk to a merchant.
-## Author: YourName
-## Version: 1.0
+## Author: Zea
+## Version: @project-version@
+## X-Wago-ID: j6jmDMNR
 
 AutoVendorHousing.lua
