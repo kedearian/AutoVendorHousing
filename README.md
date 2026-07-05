@@ -2,6 +2,8 @@
 
 A World of Warcraft Retail addon that automatically processes Housing items when you open a merchant.
 
+Available on Wago and CurseForge.
+
 ## What it does
 
 - Scans all equipped bags when a merchant window opens.
@@ -19,10 +21,12 @@ A World of Warcraft Retail addon that automatically processes Housing items when
 
 1. Install from Wago:
    - https://addons.wago.io/addons/autovendorhousing
-2. Or install manually by downloading or cloning this repository.
-3. Place the `AutoVendorHousing` folder in:
+2. Install from CurseForge:
+   - https://www.curseforge.com/wow/addons/autovendorhousing
+3. Or install manually by downloading or cloning this repository.
+4. Place the `AutoVendorHousing` folder in:
    - `World of Warcraft/_retail_/Interface/AddOns/`
-4. Launch or reload WoW.
+5. Launch or reload WoW.
 
 ## Notes
 
@@ -42,15 +46,16 @@ This repository is configured for the BigWigs packager with a GitHub Actions wor
 
 Set these repository settings before creating a release tag:
 
+- Repository secret: `CF_API_TOKEN`
 - Repository secret: `WAGO_API_TOKEN`
 
-The Wago project ID is stored in [AutoVendorHousing.toc](AutoVendorHousing.toc) as `## X-Wago-ID: j6jmDMNR`. The workflow uses the built-in `GITHUB_TOKEN` automatically for GitHub releases.
+The CurseForge and Wago project IDs are stored in [AutoVendorHousing.toc](AutoVendorHousing.toc) as `## X-Curse-Project-ID: 1599429` and `## X-Wago-ID: j6jmDMNR`. The workflow uses the built-in `GITHUB_TOKEN` automatically for GitHub releases.
 
 ### Creating a release
 
 1. Commit your changes to `main`.
 2. Create and push a version tag such as `v1.0.1`.
-3. GitHub Actions will build the addon zip, create or update the GitHub release, and upload the package to Wago.
+3. GitHub Actions will build the addon zip, create or update the GitHub release, and upload the package to Wago and CurseForge.
 
 Example:
 

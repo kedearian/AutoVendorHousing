@@ -3,6 +3,7 @@
 ## Notes: Automatically sells all housing/decor items when you talk to a merchant.
 ## Author: Zea
 ## Version: @project-version@
+## X-Curse-Project-ID: 1599429
 ## X-Wago-ID: j6jmDMNR
 
 AutoVendorHousing.lua
