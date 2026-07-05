@@ -34,4 +34,7 @@ A World of Warcraft Retail addon that automatically processes Housing items when
 
 ## License
 
-No license specified yet.
+This project is licensed under the GNU General Public License v3.0.
+
+- SPDX identifier: GPL-3.0-only
+- Full text: see the LICENSE file in this repository.
