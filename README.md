@@ -30,7 +30,7 @@ Available on Wago and CurseForge.
 
 ## Notes
 
-- The addon runs on the `MERCHANT_SHOW` event.
+- The addon runs when you open a vendor.
 - Unsellable Housing items are destroyed on vendor open by design.
 
 ## Files
