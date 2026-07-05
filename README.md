@@ -17,10 +17,12 @@ A World of Warcraft Retail addon that automatically processes Housing items when
 
 ## Installation
 
-1. Download or clone this repository.
-2. Place the `AutoVendorHousing` folder in:
+1. Install from Wago:
+   - https://addons.wago.io/addons/autovendorhousing
+2. Or install manually by downloading or cloning this repository.
+3. Place the `AutoVendorHousing` folder in:
    - `World of Warcraft/_retail_/Interface/AddOns/`
-3. Launch or reload WoW.
+4. Launch or reload WoW.
 
 ## Notes
 
