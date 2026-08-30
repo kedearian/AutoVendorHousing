@@ -15,7 +15,7 @@ Available on Wago and CurseForge.
 ## Requirements
 
 - World of Warcraft Retail
-- Interface version: 12.0.7 (`120007`)
+- Interface version: 12.1 (`120100`)
 
 ## Installation
 
@@ -37,32 +37,6 @@ Available on Wago and CurseForge.
 
 - `AutoVendorHousing.toc`
 - `AutoVendorHousing.lua`
-
-## Release Automation
-
-This repository is configured for the BigWigs packager with a GitHub Actions workflow at `.github/workflows/release.yml`.
-
-### Required GitHub configuration
-
-Set these repository settings before creating a release tag:
-
-- Repository secret: `CF_API_TOKEN`
-- Repository secret: `WAGO_API_TOKEN`
-
-The CurseForge and Wago project IDs are stored in [AutoVendorHousing.toc](AutoVendorHousing.toc) as `## X-Curse-Project-ID: 1599429` and `## X-Wago-ID: j6jmDMNR`. The workflow uses the built-in `GITHUB_TOKEN` automatically for GitHub releases.
-
-### Creating a release
-
-1. Commit your changes to `main`.
-2. Create and push a version tag such as `v1.0.1`.
-3. GitHub Actions will build the addon zip, create or update the GitHub release, and upload the package to Wago and CurseForge.
-
-Example:
-
-```bash
-git tag -a v1.0.1 -m "v1.0.1"
-git push origin v1.0.1
-```
 
 The packaged addon version comes from the Git tag through BigWigs packager substitution in `AutoVendorHousing.toc`.
 
