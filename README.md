@@ -32,6 +32,8 @@ Available on Wago and CurseForge.
 
 - The addon runs on the `MERCHANT_SHOW` event.
 - Unsellable Housing items are destroyed on vendor open by design.
+- If item value data is not cached yet, the addon skips destruction for safety and reports the skipped item.
+- If merchant interaction starts during combat, processing is deferred until combat ends (while merchant remains open).
 
 ## Files
 
