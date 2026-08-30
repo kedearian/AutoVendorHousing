@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-only
+# Copyright (C) 2026 Zea
+
 ## Interface: 120100
 ## Title: Auto Vendor Housing Items
 ## Notes: Automatically sells all housing/decor items when you talk to a merchant.

@@ -47,4 +47,5 @@ The packaged addon version comes from the Git tag through BigWigs packager subst
 This project is licensed under the GNU General Public License v3.0.
 
 - SPDX identifier: GPL-3.0-only
+- All files in `assets/` are original works by the project author and are licensed under GPL-3.0-only.
 - Full text: see the LICENSE file in this repository.
